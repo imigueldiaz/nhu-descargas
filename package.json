@@ -4,6 +4,10 @@
   "description": "Web de descargas del periodico NHU Lavapiés, La Latina y Embajadores",
   "main": "index.js",
   "scripts": {
+    "css-watch": "npm run css-build -- --watch",
+    "start": "npm run css-watch",
+    "css-build": "node-sass --omit-source-map-url sass/nhu.scss css/nhu.css",
+    "css-build-compressed": "node-sass --omit-source-map-url sass/nhu.scss css/nhu.min.css --output-style compressed",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,7 +26,9 @@
     "url": "https://github.com/imigueldiaz/nhu-descargas/issues"
   },
   "homepage": "https://github.com/imigueldiaz/nhu-descargas#readme",
-  "dependencies": {
-    "bootstrap.native": "^2.0.27"
+  "dependencies": {},
+  "devDependencies": {
+    "bulma": "^0.8.2",
+    "node-sass": "^4.13.1"
   }
 }
