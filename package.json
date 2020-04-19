@@ -1,0 +1,28 @@
+{
+  "name": "nhu-descargas",
+  "version": "1.0.0",
+  "description": "Web de descargas del periodico NHU Lavapiés, La Latina y Embajadores",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imigueldiaz/nhu-descargas.git"
+  },
+  "keywords": [
+    "lavapies",
+    "periodico",
+    "descargas",
+    "pdf"
+  ],
+  "author": "Iñaki de Miguel Díaz",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/imigueldiaz/nhu-descargas/issues"
+  },
+  "homepage": "https://github.com/imigueldiaz/nhu-descargas#readme",
+  "dependencies": {
+    "bootstrap.native": "^2.0.27"
+  }
+}
