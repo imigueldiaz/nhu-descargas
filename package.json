@@ -6,8 +6,8 @@
   "scripts": {
     "css-watch": "npm run css-build -- --watch",
     "start": "npm run css-watch",
-    "css-build": "node-sass --omit-source-map-url sass/nhu.scss css/nhu.css",
-    "css-build-compressed": "node-sass --omit-source-map-url sass/nhu.scss css/nhu.min.css --output-style compressed",
+    "css-build": "node-sass --omit-source-map-url sass/nhu.scss static/css/nhu.css",
+    "css-build-compressed": "node-sass --omit-source-map-url sass/nhu.scss static/css/nhu.min.css --output-style compressed",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
